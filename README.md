@@ -21,3 +21,5 @@ Now we can use any commands which access the memory to check the effectiveness o
 ```
 unset LD_PRELOAD
 ```
+
+Libraries used are unistd.h, pthread.h(to prevent multiple threads from accessing memory simultaneously, locking-unlocking is used)
